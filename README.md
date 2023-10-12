@@ -1,2 +1,2 @@
-# ps_repo
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# PS_REPO
+백준 및 프로그래머스 등 PS 전용 저장소입니다.
