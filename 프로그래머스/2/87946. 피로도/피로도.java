@@ -9,7 +9,8 @@ class Solution {
     int answer = 0;
     
     public void dfs(int depth, int fatigue, boolean[] visited) {               
-     
+        if(map.length == answer) return; // 최대 횟수에 이미 도달했다면 더 이상 탐색 안함.
+        
         for(int i=0; i<map.length; i++) {
             if(!visited[i] && map[i][0] <= fatigue) {
                 visited[i] = true;
